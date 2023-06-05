@@ -1,5 +1,11 @@
 ## 🤔 우리가 보는 웹, 어떻게 구성되어 있을까?
 
-<img src="/image/홈페이지 이미지.PNG" width = "40%" height = "30%" alt = "webpage-image"></img>
+</br>
 
-우리는 컴퓨터를 활용하면서 최소 수십개에서 많게는 수천개의 웹페이지에 직면하게 된다. 
+<p align="center"><img src="/image/홈페이지 이미지.PNG" width = "80%" height = "30%" alt = "webpage-image"></p>
+
+
+  
+</br>
+
+우리는 컴퓨터를 활용하면서 최소 수십개에서 많게는 수천개의 웹페이지에 직면하게 된다. 이러한 웹페이지들은 어떤 프로그래밍이 필요하고, 어떻게 이루어져 있을까? 
