@@ -51,7 +51,7 @@ CSS는 Cascading Style Sheet의 약자로 종속적인 스타일 시트를 의�
 
 ### JavaScript (움직임)
 <p align="center">
-    <img src = "/image/js구조1.jpg">
+    <img src = "/image/JS구조1.jpg">
 </p>
 
 지금까지 HTML은 웹페이지의 뼈대를 의미하고, CSS는 살을 의미한다고 했으면, JS는 행동, 즉 움직임을 의미한다고 할 수 있습니다. 정적인 웹이 아닌 동적인 웹을 제작하기 위해 사용되는 필수적인 언어로써, 지금까지 HTML과 CSS는 프로그래밍 언어가 아니였었던 반면에 JavaScript는 프로그래밍언어중 하나로 불리고 있습니다. 
