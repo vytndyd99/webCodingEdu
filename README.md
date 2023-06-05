@@ -14,7 +14,7 @@
 ### 📌 프론트엔드와 백엔드
 
 <p align = "center">
-    <img src="/image/프론트엔드와백엔드.jpg" width = "80%" height = "30%" alt = "frontEnd&backEnd">
+    <img src="/image/프론트엔드&백엔드.jpg" width = "80%" height = "30%" alt = "frontEnd&backEnd">
 </p>
 
  우리가 보는 웹은 크게 보여지는 면인 **프론트(Front)엔드** 개념과 **백(Back)엔드** 개념으로 나누어져 있습니다😮
