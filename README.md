@@ -52,6 +52,27 @@ ___
 > 왼 : HTML의 기본적인 구조 
 > 오 : 홈페이지에 보이는 화면
 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCodingEdu</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1>안녕하세요!</h1>
+    <h2>버튼을 클릭할때마다 버튼 색상이 변경되고 있습니다!</h2>
+    
+    <button id="button" onclick="colorChange()">클릭!</button>
+    <script src="/index.js"></script>
+</body>
+</html>
+```
+
 HTML은 **Hyper Text Markup Language** 로써 하이퍼텍스트, 그리고 마크업 언어로 이루어져 있다는 특징이 존재합니다. 여기서 하이퍼텍스트는 페이지들간의 링크를 정의하는 것을 의미하며, 마크업언어는 웹페이지 구조를 정의하기위해 사용되는것을 의미합니다.
 
 ### CSS (살)
@@ -62,12 +83,35 @@ HTML은 **Hyper Text Markup Language** 로써 하이퍼텍스트, 그리고 마�
 > 왼 : CSS의 구조
 > 오 : h1태그와 h2태그의 색상, 정렬이 변경
 
+```css
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: skyblue;
+    text-align: center;
+
+}
+```
+
 CSS는 **Cascading Style Sheet** 의 약자로 종속적인 스타일 시트를 의미합니다. 웹페이지의 시각적 요소를 돋보이기 위해 다양한 스타일을 적용할 수 있도록 하는 언어이며, CSS를 통해 웹페이지를 좀 더 예쁘고, 관심을 끌 수 있도록 만들 수 있는 무궁무진한 힘을 가진 언어라고 볼 수 있습니다.
 
 ### JavaScript (움직임)
 <p align="center">
     <img src = "/image/JS구조1.jpg">
 </p>
+
+```javascript
+function colorChange() {
+    const color = ["#FC5C7D", "#6A82FB", "#38ef7d", "#fffbd5", "#b20a2c", "#CAC531"];
+  
+    let num = Math.floor(Math.random() * color.length);
+    let bodyTag = document.getElementById("button");
+    bodyTag.style.backgroundColor = color[num];
+  }
+```
 
 지금까지 HTML은 웹페이지의 뼈대를 의미하고, CSS는 살을 의미한다고 했으면, JS는 **행동, 즉 움직임을 의미**한다고 할 수 있습니다. 정적인 웹이 아닌 동적인 웹을 제작하기 위해 사용되는 필수적인 언어로써, 지금까지 HTML과 CSS는 프로그래밍 언어가 아니였었던 반면에 JavaScript는 프로그래밍 언어중 하나로 불리고 있습니다. 
 웹과 사용자간의 상호작용을 도와주는 역할을 진행하며, 웹사이트의 기능성 향상과 웹 기반 소프트웨어 실행에 큰 도움을 주는 아주 중요한 언어라고 할 수 있습니다.
